@@ -2,8 +2,13 @@
 name = "shanksbot-rs"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Michael Bachmann <mbachmann@bbmsoft.net>"]
+description = "A rust implementation of the ShanksBot shown by Matt Parker in https://www.youtube.com/watch?v=DmfxIhmGPP4"
+readme = "README.md"
+repository = "https://github.com/babymotte/shanksbot-rs.git"
+license = "MIT"
+keywords = ["shanks", "prime", "reciprocals"]
+categories = ["command-line-utilities", "mathematics"]
 
 [[bin]]
 name = "shanks"
